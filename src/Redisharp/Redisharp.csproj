@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <RootNamespace>Yuuhhe.Redisharp</RootNamespace>
+    <AssemblyName>Yuuhhe.Redisharp</AssemblyName>
+    <Authors>Yuuhhe</Authors>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageTags>Redis</PackageTags>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>True</IncludeSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetty.Codecs.Redis" Version="0.6.0" />
+    <PackageReference Include="DotNetty.Handlers" Version="0.6.0" />
+    <PackageReference Include="System.Threading.Channels" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>
